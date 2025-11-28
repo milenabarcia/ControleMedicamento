@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "858134930832",
+    "project_id": "farmacia-5abc8",
+    "storage_bucket": "farmacia-5abc8.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:858134930832:android:f930c35dd23299e4fd7f15",
+        "android_client_info": {
+          "package_name": "com.example.controlemedicamentos"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJnVmKt1_vMKVlV4518YVOKg7zwjA34hw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

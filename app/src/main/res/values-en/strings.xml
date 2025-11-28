@@ -1,0 +1,37 @@
+<resources>
+
+    <string name="app_name">Medicine Tracker</string>
+
+
+    <string name="add_medicamento">Add medicine</string>
+    <string name="tomado">Taken</string>
+
+
+    <string name="hint_nome">Medicine name</string>
+    <string name="hint_descricao">Description (optional)</string>
+    <string name="hint_horario">No time selected</string>
+    <string name="btn_escolher_horario">Choose time</string>
+    <string name="btn_salvar">Save</string>
+
+
+    <string name="confirmar_exclusao">Confirm deletion</string>
+    <string name="deseja_excluir">Do you want to delete this medicine?</string>
+    <string name="sim">Yes</string>
+    <string name="nao">No</string>
+
+
+    <string name="erro_campos_obrigatorios">Please fill in at least name and time.</string>
+    <string name="salvo_sucesso">Medicine saved!</string>
+    <string name="atualizado_sucesso">Medicine updated!</string>
+
+
+    <string name="noti_titulo">Medicine time</string>
+    <string name="noti_canal_nome">Medicine reminders</string>
+    <string name="noti_canal_desc">Notifications to remind you to take your medicines</string>
+    <string name="frase_carregando">Loading daily tip...</string>
+    <string name="frase_erro">Could not load the daily tip.</string>
+    <string name="frase_prefixo">Tip of the day: %1$s</string>
+
+    <string name="notificacoes_ativadas">Notifications enabled!</string>
+    <string name="notificacoes_negadas">Permission for notifications was denied.</string>
+</resources>

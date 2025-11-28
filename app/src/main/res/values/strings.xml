@@ -1,0 +1,38 @@
+<resources>
+
+<string name="app_name">Controle de Medicamentos</string>
+
+
+<string name="add_medicamento">Adicionar medicamento</string>
+<string name="tomado">Tomado</string>
+
+
+<string name="hint_nome">Nome do medicamento</string>
+<string name="hint_descricao">Descrição (opcional)</string>
+<string name="hint_horario">Horário não definido</string>
+<string name="btn_escolher_horario">Escolher horário</string>
+<string name="btn_salvar">Salvar</string>
+
+
+<string name="confirmar_exclusao">Confirmar exclusão</string>
+<string name="deseja_excluir">Deseja excluir este medicamento?</string>
+<string name="sim">Sim</string>
+<string name="nao">Não</string>
+
+
+<string name="erro_campos_obrigatorios">Preencha pelo menos nome e horário.</string>
+<string name="salvo_sucesso">Medicamento salvo!</string>
+<string name="atualizado_sucesso">Medicamento atualizado!</string>
+
+
+<string name="noti_titulo">Hora do medicamento</string>
+<string name="noti_canal_nome">Lembretes de medicamentos</string>
+<string name="noti_canal_desc">Notificações para lembrar o uso dos medicamentos</string>
+
+    <string name="frase_carregando">Carregando dica do dia...</string>
+    <string name="frase_erro">Não foi possível carregar a dica do dia.</string>
+    <string name="frase_prefixo">Dica do dia: %1$s</string>
+
+    <string name="notificacoes_ativadas">Notificações ativadas!</string>
+    <string name="notificacoes_negadas">Permissão para notificações foi negada.</string>
+</resources>
