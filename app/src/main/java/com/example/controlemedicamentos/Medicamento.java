@@ -5,11 +5,11 @@ public class Medicamento {
     private String id;
     private String nome;
     private String descricao;
-    private String horario;  // formato simples: "HH:mm"
+    private String horario;
     private boolean consumido;
 
     public Medicamento() {
-        // Construtor vazio exigido pelo Firestore
+
     }
 
     public Medicamento(String id, String nome, String descricao, String horario, boolean consumido) {

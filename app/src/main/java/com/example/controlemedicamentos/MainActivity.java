@@ -83,7 +83,6 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    // ========= PERMISSÃO DE NOTIFICAÇÃO =========
 
     private void pedirPermissaoNotificacao() {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
@@ -211,7 +210,7 @@ public class MainActivity extends AppCompatActivity {
                 .setPriority(NotificationCompat.PRIORITY_HIGH)
                 .setAutoCancel(true);
 
-        // Android 13+: confere permissão
+
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
             if (ActivityCompat.checkSelfPermission(
                     this,

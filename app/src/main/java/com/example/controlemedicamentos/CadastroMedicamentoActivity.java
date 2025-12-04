@@ -132,7 +132,6 @@ public class CadastroMedicamentoActivity extends AppCompatActivity {
         c.set(Calendar.MINUTE, minuto);
         c.set(Calendar.SECOND, 0);
 
-        // Se o horário já passou hoje → agenda para amanhã
         if (c.before(Calendar.getInstance())) {
             c.add(Calendar.DAY_OF_MONTH, 1);
         }

@@ -29,7 +29,7 @@ public class LembreteReceiver extends BroadcastReceiver {
             texto = nome + " - " + descricao;
         }
 
-        // Android 13+: checa permissão
+
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
             if (ActivityCompat.checkSelfPermission(
                     context,

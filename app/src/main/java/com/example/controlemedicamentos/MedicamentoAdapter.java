@@ -44,7 +44,7 @@ public class MedicamentoAdapter extends RecyclerView.Adapter<MedicamentoAdapter.
         holder.cbTomado.setOnCheckedChangeListener(null);
         holder.cbTomado.setChecked(m.isConsumido());
 
-        // Muda a opacidade se já foi consumido (apenas visual)
+
         holder.itemView.setAlpha(m.isConsumido() ? 0.5f : 1.0f);
 
         holder.cbTomado.setOnCheckedChangeListener((buttonView, isChecked) -> {
@@ -53,14 +53,14 @@ public class MedicamentoAdapter extends RecyclerView.Adapter<MedicamentoAdapter.
                     .update("consumido", isChecked);
         });
 
-        // clique curto: editar
+
         holder.itemView.setOnClickListener(v -> {
             Intent i = new Intent(context, CadastroMedicamentoActivity.class);
             i.putExtra("id", m.getId());
             context.startActivity(i);
         });
 
-        // clique longo: excluir
+
         holder.itemView.setOnLongClickListener(v -> {
             new AlertDialog.Builder(context)
                     .setTitle(R.string.confirmar_exclusao)
